@@ -29,7 +29,7 @@ Here is the markdown template for your repository:
 
 **A production-ready reference architecture for an autonomous, omnichannel (Voice & Text) AI Receptionist, demonstrating advanced prompt injection defense, secure Model Context Protocol (MCP) integrations, and stateful orchestration.**
 
-> *“We aren't building wrappers anymore. We are building Integrated Context Systems.”* — [@AI-Native-Architect](YOUR_CHANNEL_LINK)
+> *“We aren't building wrappers anymore. We are building Integrated Context Systems.”* — [@AI-Native-Architect](https://www.youtube.com/@AI-Native-Architect)
 
 ---
 
