@@ -1,1 +1,13 @@
-
+version: '3.8'
+services:
+  receptionist-engine:
+    build: ./orchestrator
+    environment:
+      - GEMINI_API_KEY=${GEMINI_API_KEY}
+      - SAFETY_LEVEL=BLOCK_ONLY_HIGH
+  
+  crm-mcp-server:
+    build: ./mcp-servers/crm-connector
+    ports:
+      - "8080:8080"
+    # Scoped access only - AI cannot see the master DB password
