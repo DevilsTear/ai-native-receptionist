@@ -1,26 +1,3 @@
-
----
-
-## 🤝 Contributing
-
-We welcome discussions and contributions regarding architectural patterns, security hardening, and MCP implementations. Please review our [Contribution Guidelines](CONTRIBUTING.md) and ensure all pull requests include updated tests for prompt injection resilience.
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-***
-
-**How this enhances the @AI-Native-Architect brand:**
-
-*   **"Simple scales, fancy fails":** The README explicitly mentions this philosophy, tying the code back to your core beliefs.
-*   **Abstracted Voice Providers:** It highlights that you aren't tied to one vendor (Vapi/Retell), which is a key indicator of senior architecture.
-*   **ADRs included:** Mentioning Architectural Decision Records in the folderThis GitHub README template is designed to accompany your YouTube video, bridging the gap between the high-level concepts discussed on the channel and the concrete implementation required by engineers. It reinforces your brand as a seasoned technology leader who prioritizes security, scalability, and robust architecture.
-
-Here is the markdown template for your repository:
-
-***
-
 # Secure Omnichannel AI Receptionist: Enterprise Reference Architecture
 
 [![AI-Native Architect Video](https://img.shields.io/badge/YouTube-Watch_the_Breakdown-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](YOUR_YOUTUBE_VIDEO_LINK)
@@ -128,3 +105,14 @@ This architecture specifically addresses the following threats:
 │   ├── ADRs              # Architectural Decision Records
 │   └── threat-model.md   # Detailed security analysis
 └── docker-compose.yml    # Local development environment
+```
+
+---
+
+## 🤝 Contributing
+
+We welcome discussions and contributions regarding architectural patterns, security hardening, and MCP implementations. Please review our [Contribution Guidelines](CONTRIBUTING.md) and ensure all pull requests include updated tests for prompt injection resilience.
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
